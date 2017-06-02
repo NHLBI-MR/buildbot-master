@@ -219,7 +219,7 @@
 		"autoUpgradeMinorVersion": true,
 		"settings": {
 		    "fileUris": [
-			"https://raw.githubusercontent.com/hansenms/cloud/master/azure/buildbot/master/setup_master.sh"
+			"https://raw.githubusercontent.com/hansenms/cloud/master/azure/buildbot/master/setup_master.sh",
 			"https://raw.githubusercontent.com/hansenms/cloud/master/azure/buildbot/master/buildbot-master.service"
 		    ],
 		    "commandToExecute": "bash setup_master.sh"
