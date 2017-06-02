@@ -1,0 +1,13 @@
+[Unit]
+Description=BuildBot master service
+After=network.target
+
+[Service]
+User=buildbot
+Group=buildbot
+WorkingDirectory=/home/buildbot/master
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
+ExecStart=/usr/local/bin/buildbot start --nodaemon
+
+[Install]
+WantedBy=multi-user.target
